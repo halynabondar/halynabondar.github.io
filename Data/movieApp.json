@@ -133,7 +133,7 @@
   },
   {
     "id": 9,
-    "title": "The Shawshank Redemption",
+    "title": "Shawshank Redemption",
     "description": "In prison, two inmates bond over years, finding solace in friendship and hope, leading to redemption and an eventual escape that transcends the brutality of their environment.",
     "movie_year": 1994,
     "director": "Frank Darabont",
@@ -197,7 +197,7 @@
   },
   {
     "id": 13,
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "title": "The Lord of the Rings: Fellowship of the Ring",
     "description": "Frodo Baggins and his companions embark on a quest to destroy the One Ring, facing dark forces and the looming threat of Sauron’s power.",
     "movie_year": 2001,
     "director": "Peter Jackson",
@@ -325,7 +325,7 @@
   },
   {
     "id": 21,
-    "title": "The Silence of the Lambs",
+    "title": "Silence of the Lambs",
     "description": "A young FBI cadet enlists the help of Hannibal Lecter, a brilliant but jailed killer, to catch another serial murderer, diving into a chilling psychological battle.",
     "movie_year": 1991,
     "director": "Jonathan Demme",
@@ -454,7 +454,7 @@
   {
     "id": 29,
     "title": "WALL·E",
-    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "description": "In the distant future, Earth has become a desolate wasteland, abandoned by humanity and overrun by mountains of trash. Amidst the rubble, a small, lovable robot named WALL-E spends his days tirelessly cleaning up the mess.",
     "movie_year": 2008,
     "director": "Andrew Stanton",
     "actors": [
