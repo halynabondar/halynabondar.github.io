@@ -11,10 +11,7 @@
       "Michael Biehn",
       "Paul Winfield",
       "Lance Henriksen",
-      "Rick Rossovich",
-      "Bess Motta",
-      "Earl Boen",
-      "Bill Paxton"
+      "Rick Rossovich"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/hcItc8IMO0WKyRWPGkI6xtKVu6X.jpg",
     "price": 80.00
@@ -121,7 +118,7 @@
   {
     "id": 8,
     "title": "Fight Club",
-    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "description": "The film tells the story of an alienated office worker and a charismatic nihilist who start an underground club at which disaffected young men violently fight each other.",
     "movie_year": 1999,
     "director": "David Fincher",
     "actors": [
@@ -184,8 +181,8 @@
   },
   {
     "id": 12,
-    "title": "Star Wars: Episode IV - A New Hope",
-    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+    "title": "Star Wars: Episode IV",
+    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess...",
     "movie_year": 1977,
     "director": "George Lucas",
     "actors": [
@@ -200,7 +197,7 @@
   },
   {
     "id": 13,
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "title": "The Lord of the Rings",
     "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
     "movie_year": 2001,
     "director": "Peter Jackson",
@@ -227,7 +224,7 @@
       "Sean Astin",
       "Orlando Bloom"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rrGlNlzFTrXFNGXsD6h8lWUcqof.jpg",
+    "poster_url": "https://www.themoviedb.org/t/p/w1280/zrcL156wXTcfS3wzziCmr8uessx.jpg",
     "price": 105.00
   },
   {
@@ -248,7 +245,7 @@
   },
   {
     "id": 16,
-    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "title": "Star Wars: Episode V",
     "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader.",
     "movie_year": 1980,
     "director": "Irvin Kershner",
@@ -291,7 +288,7 @@
       "Edward Burns",
       "Barry Pepper"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/miDoEMlYDJhOCvxlzI0wZqBs9Yt.jpg",
+    "poster_url": "https://www.themoviedb.org/t/p/w1280/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
     "price": 90.00
   },
   {
