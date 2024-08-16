@@ -1,8 +1,478 @@
+//[
+//  {
+//    "id": 1,
+//    "title": "The Terminator",
+//    "description": " In 2029, a soldier travels back to 1984 to stop a cyborg sent to kill a woman whose unborn son will lead humanity against machines. This battle shapes the future of mankind's survival.",
+//    "movie_year": 1984,
+//    "director": "James Cameron",
+//    "actors": [
+//      "Arnold Schwarzenegger",
+//      "Linda Hamilton",
+//      "Michael Biehn",
+//      "Paul Winfield",
+//      "Lance Henriksen",
+//      "Rick Rossovich"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w1280/hcItc8IMO0WKyRWPGkI6xtKVu6X.jpg",
+//    "price": 80.00
+//  },
+//  {
+//    "id": 2,
+//    "title": "Back to the Future",
+//    "description": "Marty McFly, a teenager, travels 30 years into the past in a DeLorean time machine created by Doc Brown, encountering his parents' high school lives and trying to ensure his future.",
+//    "movie_year": 1985,
+//    "director": "Robert Zemeckis",
+//    "actors": [
+//      "Michael J. Fox",
+//      "Christopher Lloyd",
+//      "Lea Thompson",
+//      "Crispin Glover",
+//      "Thomas F. Wilson"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
+//    "price": 75.00
+//  },
+//  {
+//    "id": 3,
+//    "title": "Jurassic Park",
+//    "description": "An entrepreneur builds a dinosaur theme park using prehistoric DNA. Before its grand opening, the dinosaurs break free, putting visitors' lives in danger, leading to chaos and suspense.",
+//    "movie_year": 1993,
+//    "director": "Steven Spielberg",
+//    "actors": [
+//      "Sam Neill",
+//      "Laura Dern",
+//      "Jeff Goldblum",
+//      "Richard Attenborough",
+//      "Bob Peck"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w1280/kYVJCtAOhkIbz4MWulx0N17ZNTQ.jpg",
+//    "price": 90.00
+//  },
+//  {
+//    "id": 4,
+//    "title": "The Matrix",
+//    "description": "A hacker discovers his reality is a simulated world controlled by machines. Joining a rebellion, he learns about his true role in the fight for humanity's freedom against the machines.",
+//    "movie_year": 1999,
+//    "director": "Lana Wachowski, Lilly Wachowski",
+//    "actors": [
+//      "Keanu Reeves",
+//      "Laurence Fishburne",
+//      "Carrie-Anne Moss",
+//      "Hugo Weaving"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+//    "price": 85.00
+//  },
+//  {
+//    "id": 5,
+//    "title": "Inception",
+//    "description": "A skilled thief who steals secrets through dream-sharing is tasked with planting an idea into a CEO's mind, navigating complex dreams to achieve what seems impossible.",
+//    "movie_year": 2010,
+//    "director": "Christopher Nolan",
+//    "actors": [
+//      "Leonardo DiCaprio",
+//      "Joseph Gordon-Levitt",
+//      "Elliot Page",
+//      "Tom Hardy",
+//      "Ken Watanabe",
+//      "Dileep Rao",
+//      "Cillian Murphy"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w1280/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
+//    "price": 95.00
+//  },
+//  {
+//    "id": 6,
+//    "title": "Pulp Fiction",
+//    "description": "The intertwining stories of hitmen, a boxer, a mobster, and bandits unfold in a series of violent and darkly comedic vignettes, exploring themes of redemption and consequence.",
+//    "movie_year": 1994,
+//    "director": "Quentin Tarantino",
+//    "actors": [
+//      "John Travolta",
+//      "Uma Thurman",
+//      "Samuel L. Jackson",
+//      "Bruce Willis",
+//      "Ving Rhames"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+//    "price": 80.00
+//  },
+//  {
+//    "id": 7,
+//    "title": "The Dark Knight",
+//    "description": "As Gotham faces chaos with the Joker's rise, Batman confronts intense challenges to protect the city, testing his limits and forcing him to confront moral and ethical dilemmas.",
+//    "movie_year": 2008,
+//    "director": "Christopher Nolan",
+//    "actors": [
+//      "Christian Bale",
+//      "Heath Ledger",
+//      "Aaron Eckhart",
+//      "Michael Caine",
+//      "Maggie Gyllenhaal",
+//      "Gary Oldman",
+//      "Morgan Freeman"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+//    "price": 100.00
+//  },
+//  {
+//    "id": 8,
+//    "title": "Fight Club",
+//    "description": "An insomniac and a soap salesman create an underground fight club as a form of male therapy, leading to chaotic consequences and a journey toward self-destruction and rebellion.",
+//    "movie_year": 1999,
+//    "director": "David Fincher",
+//    "actors": [
+//      "Brad Pitt",
+//      "Edward Norton",
+//      "Meat Loaf",
+//      "Jared Leto",
+//      "Helena Bonham Carter"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
+//    "price": 70.00
+//  },
+//  {
+//    "id": 9,
+//    "title": "The Shawshank Redemption",
+//    "description": "In prison, two inmates bond over years, finding solace in friendship and hope, leading to redemption and an eventual escape that transcends the brutality of their environment.",
+//    "movie_year": 1994,
+//    "director": "Frank Darabont",
+//    "actors": [
+//      "Tim Robbins",
+//      "Morgan Freeman",
+//      "Bob Gunton",
+//      "William Sadler",
+//      "Clancy Brown"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+//    "price": 85.00
+//  },
+//  {
+//    "id": 10,
+//    "title": "Forrest Gump",
+//    "description": "A simple man recounts his extraordinary life, intersecting with historical events, while his love for his childhood sweetheart guides him through triumphs and tribulations.",
+//    "movie_year": 1994,
+//    "director": "Robert Zemeckis",
+//    "actors": [
+//      "Tom Hanks",
+//      "Robin Wright",
+//      "Gary Sinise",
+//      "Sally Field",
+//      "Mykelti Williamson"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+//    "price": 80.00
+//  },
+//  {
+//    "id": 11,
+//    "title": "The Godfather",
+//    "description": "Michael Corleone, son of a mafia don, is drawn into the family business after an assassination attempt on his father, setting off a cycle of violence and power struggles.",
+//    "movie_year": 1972,
+//    "director": "Francis Ford Coppola",
+//    "actors": [
+//      "Marlon Brando",
+//      "Al Pacino",
+//      "James Caan",
+//      "Richard S. Castellano",
+//      "Robert Duvall"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+//    "price": 120.00
+//  },
+//  {
+//    "id": 12,
+//    "title": "Star Wars: Episode IV",
+//    "description": "Young Luke Skywalker teams with a Jedi, a pilot, a Wookiee, and droids to fight the Empire, aiming to destroy a deadly space station and rescue Princess Leia.",
+//    "movie_year": 1977,
+//    "director": "George Lucas",
+//    "actors": [
+//      "Mark Hamill",
+//      "Harrison Ford",
+//      "Carrie Fisher",
+//      "Peter Cushing",
+//      "Alec Guinness"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+//    "price": 110.00
+//  },
+//  {
+//    "id": 13,
+//    "title": "The Lord of the Rings: The Fellowship of the Ring",
+//    "description": "Frodo Baggins and his companions embark on a quest to destroy the One Ring, facing dark forces and the looming threat of Sauron’s power.",
+//    "movie_year": 2001,
+//    "director": "Peter Jackson",
+//    "actors": [
+//      "Elijah Wood",
+//      "Ian McKellen",
+//      "Orlando Bloom",
+//      "Sean Bean",
+//      "Sean Astin"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+//    "price": 105.00
+//  },
+//  {
+//    "id": 14,
+//    "title": "The Lord of the Rings: The Two Towers",
+//    "description": "As Frodo and Sam head for Mordor with Gollum's help, their allies prepare to battle Saruman's forces, seeking to protect Middle-earth from dark powers.",
+//    "movie_year": 2002,
+//    "director": "Peter Jackson",
+//    "actors": [
+//      "Elijah Wood",
+//      "Ian McKellen",
+//      "Viggo Mortensen",
+//      "Sean Astin",
+//      "Orlando Bloom"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w1280/zrcL156wXTcfS3wzziCmr8uessx.jpg",
+//    "price": 105.00
+//  },
+//  {
+//    "id": 15,
+//    "title": "The Lord of the Rings: The Return of the King",
+//    "description": " As Frodo and Sam near Mordor, Gandalf and Aragorn rally men to distract Sauron, aiming to protect Middle-earth and destroy the One Ring in the heart of Mount Doom.",
+//    "movie_year": 2003,
+//    "director": "Peter Jackson",
+//    "actors": [
+//      "Elijah Wood",
+//      "Viggo Mortensen",
+//      "Ian McKellen",
+//      "Orlando Bloom",
+//      "Sean Astin"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+//    "price": 105.00
+//  },
+//  {
+//    "id": 16,
+//    "title": "Star Wars: Episode V",
+//    "description": "The Rebels face defeat by the Empire on Hoth. Luke Skywalker seeks Jedi training with Yoda as his friends evade Darth Vader's relentless pursuit across the galaxy.",
+//    "movie_year": 1980,
+//    "director": "Irvin Kershner",
+//    "actors": [
+//      "Mark Hamill",
+//      "Harrison Ford",
+//      "Carrie Fisher",
+//      "Billy Dee Williams",
+//      "Anthony Daniels"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+//    "price": 110.00
+//  },
+//  {
+//    "id": 17,
+//    "title": "Gladiator",
+//    "description": "After Emperor Marcus Aurelius dies, his son Commodus seizes the throne. General Maximus escapes execution, becomes a gladiator, and seeks vengeance for his family's murder.",
+//    "movie_year": 2000,
+//    "director": "Ridley Scott",
+//    "actors": [
+//      "Russell Crowe",
+//      "Joaquin Phoenix",
+//      "Connie Nielsen",
+//      "Oliver Reed",
+//      "Derek Jacobi"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+//    "price": 95.00
+//  },
+//  {
+//    "id": 18,
+//    "title": "Saving Private Ryan",
+//    "description": "Following D-Day, a squad of U.S. soldiers is sent to find and bring back a paratrooper whose brothers died in combat, facing harrowing battles across enemy lines.",
+//    "movie_year": 1998,
+//    "director": "Steven Spielberg",
+//    "actors": [
+//      "Tom Hanks",
+//      "Matt Damon",
+//      "Tom Sizemore",
+//      "Edward Burns",
+//      "Barry Pepper"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w1280/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+//    "price": 90.00
+//  },
+//  {
+//    "id": 19,
+//    "title": "Braveheart",
+//    "description": "William Wallace leads a Scottish rebellion against England to free his homeland from King Edward I's rule, inspiring his people through courage and determination.",
+//    "movie_year": 1995,
+//    "director": "Mel Gibson",
+//    "actors": [
+//      "Mel Gibson",
+//      "Sophie Marceau",
+//      "Patrick McGoohan",
+//      "Angus Macfadyen",
+//      "Catherine McCormack"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or1gBugydmjToAEq7OZY0owwFk.jpg",
+//    "price": 85.00
+//  },
+//  {
+//    "id": 20,
+//    "title": "Schindler's List",
+//    "description": "In WWII Poland, industrialist Oskar Schindler saves his Jewish workers from Nazi persecution, turning his factory into a haven and risking everything for their safety.",
+//    "movie_year": 1993,
+//    "director": "Steven Spielberg",
+//    "actors": [
+//      "Liam Neeson",
+//      "Ben Kingsley",
+//      "Ralph Fiennes",
+//      "Caroline Goodall",
+//      "Jonathan Sagall"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c8Ass7acuOe4za6DhSattE359gr.jpg",
+//    "price": 100.00
+//  },
+//  {
+//    "id": 21,
+//    "title": "The Silence of the Lambs",
+//    "description": "A young FBI cadet enlists the help of Hannibal Lecter, a brilliant but jailed killer, to catch another serial murderer, diving into a chilling psychological battle.",
+//    "movie_year": 1991,
+//    "director": "Jonathan Demme",
+//    "actors": [
+//      "Jodie Foster",
+//      "Anthony Hopkins",
+//      "Scott Glenn",
+//      "Ted Levine",
+//      "Anthony Heald"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
+//    "price": 85.00
+//  },
+//  {
+//    "id": 22,
+//    "title": "Goodfellas",
+//    "description": "The rise and fall of mob associate Henry Hill, detailing his life in the Italian-American crime syndicate and the personal and professional consequences of his choices.",
+//    "movie_year": 1990,
+//    "director": "Martin Scorsese",
+//    "actors": [
+//      "Robert De Niro",
+//      "Ray Liotta",
+//      "Joe Pesci",
+//      "Lorraine Bracco",
+//      "Paul Sorvino"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+//    "price": 90.00
+//  },
+//  {
+//    "id": 23,
+//    "title": "The Lion King",
+//    "description": "Young lion Simba is cast out by his uncle Scar, who seeks the throne. Guided by new friends, Simba returns to reclaim his destiny and restore balance to his kingdom.",
+//    "movie_year": 1994,
+//    "director": "Roger Allers, Rob Minkoff",
+//    "actors": [
+//      "Matthew Broderick",
+//      "Jeremy Irons",
+//      "James Earl Jones",
+//      "Whoopi Goldberg",
+//      "Rowan Atkinson"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+//    "price": 80.00
+//  },
+//  {
+//    "id": 24,
+//    "title": "Toy Story",
+//    "description": "Woody, a cowboy doll, feels threatened when Buzz Lightyear, a space action figure, replaces him as the favorite toy. Together, they embark on an adventure to find their place.",
+//    "movie_year": 1995,
+//    "director": "John Lasseter",
+//    "actors": [
+//      "Tom Hanks",
+//      "Tim Allen",
+//      "Don Rickles",
+//      "Jim Varney",
+//      "Wallace Shawn"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+//    "price": 75.00
+//  },
+//  {
+//    "id": 25,
+//    "title": "Finding Nemo",
+//    "description": "Marlin, a clownfish, braves the ocean to find his son, Nemo, who has been captured and placed in a fish tank. With Dory's help, he encounters dangers and makes allies.",
+//    "movie_year": 2003,
+//    "director": "Andrew Stanton, Lee Unkrich",
+//    "actors": [
+//      "Albert Brooks",
+//      "Ellen DeGeneres",
+//      "Alexander Gould",
+//      "Willem Dafoe",
+//      "Brad Garrett"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
+//    "price": 75.00
+//  },
+//  {
+//    "id": 26,
+//    "title": "Shrek",
+//    "description": "An ogre named Shrek sets out to rescue Princess Fiona to reclaim his swamp, embarking on a journey filled with unlikely friendships, magical creatures, and unexpected romance.",
+//    "movie_year": 2001,
+//    "director": "Andrew Adamson, Vicky Jenson",
+//    "actors": [
+//      "Mike Myers",
+//      "Eddie Murphy",
+//      "Cameron Diaz",
+//      "John Lithgow",
+//      "Vincent Cassel"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+//    "price": 70.00
+//  },
+//  {
+//    "id": 27,
+//    "title": "Up",
+//    "description": "Elderly Carl Fredricksen fulfills his dream of adventure by flying to South America in his house, accidentally bringing along a young stowaway named Russell for a heartwarming journey.",
+//    "movie_year": 2009,
+//    "director": "Pete Docter, Bob Peterson",
+//    "actors": [
+//      "Ed Asner",
+//      "Jordan Nagai",
+//      "John Ratzenberger",
+//      "Christopher Plummer",
+//      "Bob Peterson"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rIfKIYMbwVlnAXOOaQRsm34GW3S.jpg",
+//    "price": 85.00
+//  },
+//  {
+//    "id": 28,
+//    "title": "The Incredibles",
+//    "description": "A family of superheroes struggles to live normal lives, but when called into action, they must work together to save the world from a new threat and embrace their powers.",
+//    "movie_year": 2004,
+//    "director": "Brad Bird",
+//    "actors": [
+//      "Craig T. Nelson",
+//      "Samuel L. Jackson",
+//      "Holly Hunter",
+//      "Jason Lee",
+//      "Dominique Louis"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+//    "price": 80.00
+//  },
+//  {
+//    "id": 29,
+//    "title": "WALL·E",
+//    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+//    "movie_year": 2008,
+//    "director": "Andrew Stanton",
+//    "actors": [
+//      "Ben Burtt",
+//      "Elissa Knight",
+//      "Jeff Garlin",
+//      "Fred Willard",
+//      "John Ratzenberger"
+//    ],
+//    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+//    "price": 80.00
+//  }
+//]
 [
   {
     "id": 1,
     "title": "The Terminator",
-    "description": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",
+    "description": "A soldier from 2029 travels to 1984 to stop a nearly indestructible cyborg assassin sent to kill a woman whose unborn son is key to humanity's survival.",
     "movie_year": 1984,
     "director": "James Cameron",
     "actors": [
@@ -14,12 +484,12 @@
       "Rick Rossovich"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/hcItc8IMO0WKyRWPGkI6xtKVu6X.jpg",
-    "price": 80.00
+    "price": 80.0
   },
   {
     "id": 2,
     "title": "Back to the Future",
-    "description": "Marty McFly, a teenager, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, eccentric scientist Doc Brown.",
+    "description": "Teenager Marty McFly accidentally travels 30 years into the past in a time machine invented by eccentric scientist Doc Brown.",
     "movie_year": 1985,
     "director": "Robert Zemeckis",
     "actors": [
@@ -30,12 +500,12 @@
       "Thomas F. Wilson"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
-    "price": 75.00
+    "price": 75.0
   },
   {
     "id": 3,
     "title": "Jurassic Park",
-    "description": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+    "description": "A wealthy entrepreneur creates a dinosaur park. Before opening, the security fails, causing chaos and danger for visitors.",
     "movie_year": 1993,
     "director": "Steven Spielberg",
     "actors": [
@@ -46,12 +516,12 @@
       "Bob Peck"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/kYVJCtAOhkIbz4MWulx0N17ZNTQ.jpg",
-    "price": 90.00
+    "price": 90.0
   },
   {
     "id": 4,
     "title": "The Matrix",
-    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "description": "A hacker learns about the true nature of reality and his role in the fight against the controllers of the Matrix.",
     "movie_year": 1999,
     "director": "Lana Wachowski, Lilly Wachowski",
     "actors": [
@@ -61,12 +531,12 @@
       "Hugo Weaving"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
-    "price": 85.00
+    "price": 85.0
   },
   {
     "id": 5,
     "title": "Inception",
-    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "description": "A skilled thief who steals secrets through dream-sharing is tasked with planting an idea in a CEO's mind.",
     "movie_year": 2010,
     "director": "Christopher Nolan",
     "actors": [
@@ -79,12 +549,12 @@
       "Cillian Murphy"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
-    "price": 95.00
+    "price": 95.0
   },
   {
     "id": 6,
     "title": "Pulp Fiction",
-    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "description": "The lives of mob hitmen, a boxer, and a gangster's wife intertwine in tales of crime and redemption.",
     "movie_year": 1994,
     "director": "Quentin Tarantino",
     "actors": [
@@ -95,12 +565,12 @@
       "Ving Rhames"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
-    "price": 80.00
+    "price": 80.0
   },
   {
     "id": 7,
     "title": "The Dark Knight",
-    "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "description": "Batman faces his greatest test when the Joker unleashes chaos on Gotham City, challenging his morals and resolve.",
     "movie_year": 2008,
     "director": "Christopher Nolan",
     "actors": [
@@ -113,12 +583,12 @@
       "Morgan Freeman"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "price": 100.00
+    "price": 100.0
   },
   {
     "id": 8,
     "title": "Fight Club",
-    "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "description": "An insomniac and a soap salesman create an underground fight club that spirals out of control, leading to chaos.",
     "movie_year": 1999,
     "director": "David Fincher",
     "actors": [
@@ -129,12 +599,12 @@
       "Helena Bonham Carter"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
-    "price": 70.00
+    "price": 70.0
   },
   {
     "id": 9,
     "title": "The Shawshank Redemption",
-    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "description": "Two prisoners bond over years, finding solace and redemption through acts of decency and hope.",
     "movie_year": 1994,
     "director": "Frank Darabont",
     "actors": [
@@ -145,12 +615,12 @@
       "Clancy Brown"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-    "price": 85.00
+    "price": 85.0
   },
   {
     "id": 10,
     "title": "Forrest Gump",
-    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+    "description": "The life of an Alabama man with a low IQ unfolds against the backdrop of major historical events.",
     "movie_year": 1994,
     "director": "Robert Zemeckis",
     "actors": [
@@ -161,12 +631,12 @@
       "Mykelti Williamson"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-    "price": 80.00
+    "price": 80.0
   },
   {
     "id": 11,
     "title": "The Godfather",
-    "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "description": "In post-war America, Michael Corleone reluctantly joins his family's Mafia empire, leading to betrayal and revenge.",
     "movie_year": 1972,
     "director": "Francis Ford Coppola",
     "actors": [
@@ -177,12 +647,12 @@
       "Robert Duvall"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-    "price": 120.00
+    "price": 120.0
   },
   {
     "id": 12,
     "title": "Star Wars: Episode IV",
-    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess...",
+    "description": "Young Luke Skywalker joins a rebellion to save the galaxy from the Empire's Death Star and rescue Princess Leia.",
     "movie_year": 1977,
     "director": "George Lucas",
     "actors": [
@@ -193,12 +663,12 @@
       "Alec Guinness"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-    "price": 110.00
+    "price": 110.0
   },
   {
     "id": 13,
     "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+    "description": "A hobbit and eight companions begin a journey to destroy the One Ring and save Middle-earth from Sauron.",
     "movie_year": 2001,
     "director": "Peter Jackson",
     "actors": [
@@ -209,46 +679,46 @@
       "Sean Astin"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-    "price": 105.00
+    "price": 115.0
   },
   {
     "id": 14,
     "title": "The Lord of the Rings: The Two Towers",
-    "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+    "description": "Frodo and Sam approach Mordor, while their allies prepare to battle Saruman's forces in a struggle for Middle-earth.",
     "movie_year": 2002,
     "director": "Peter Jackson",
     "actors": [
       "Elijah Wood",
       "Ian McKellen",
       "Viggo Mortensen",
-      "Sean Astin",
+      "Liv Tyler",
       "Orlando Bloom"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w1280/zrcL156wXTcfS3wzziCmr8uessx.jpg",
-    "price": 105.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rrGlNlzFTrXFNGXsD7NNlxq4BPb.jpg",
+    "price": 115.0
   },
   {
     "id": 15,
-    "title": "The Lord of the Rings",
-    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "title": "The Lord of the Rings: The Return of the King",
+    "description": "Frodo nears Mordor, and Gandalf rallies forces to distract Sauron while the One Ring is destroyed.",
     "movie_year": 2003,
     "director": "Peter Jackson",
     "actors": [
       "Elijah Wood",
-      "Viggo Mortensen",
       "Ian McKellen",
-      "Orlando Bloom",
-      "Sean Astin"
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Liv Tyler"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "price": 105.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2dl3qYD7ig3sJNWHzSgqFgZcf7U.jpg",
+    "price": 115.0
   },
   {
     "id": 16,
     "title": "Star Wars: Episode V",
-    "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader.",
+    "description": "Luke trains as a Jedi with Yoda while his friends flee from Darth Vader, leading to a climactic confrontation.",
     "movie_year": 1980,
-    "director": "Irvin Kershner",
+    "director": "George Lucas",
     "actors": [
       "Mark Hamill",
       "Harrison Ford",
@@ -257,12 +727,12 @@
       "Anthony Daniels"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
-    "price": 110.00
+    "price": 110.0
   },
   {
     "id": 17,
     "title": "Gladiator",
-    "description": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders.",
+    "description": "Betrayed Roman general Maximus becomes a gladiator, seeking revenge against the emperor who killed his family.",
     "movie_year": 2000,
     "director": "Ridley Scott",
     "actors": [
@@ -273,44 +743,44 @@
       "Derek Jacobi"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
-    "price": 95.00
+    "price": 100.0
   },
   {
     "id": 18,
     "title": "Saving Private Ryan",
-    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+    "description": "During WWII, a squad searches for a paratrooper whose brothers have died in combat, facing battles and challenges.",
     "movie_year": 1998,
     "director": "Steven Spielberg",
     "actors": [
       "Tom Hanks",
-      "Matt Damon",
       "Tom Sizemore",
       "Edward Burns",
+      "Matt Damon",
       "Barry Pepper"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w1280/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
-    "price": 90.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg",
+    "price": 85.0
   },
   {
     "id": 19,
     "title": "Braveheart",
-    "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+    "description": "William Wallace leads a Scottish rebellion against English rule, inspiring his people to fight for freedom.",
     "movie_year": 1995,
     "director": "Mel Gibson",
     "actors": [
       "Mel Gibson",
       "Sophie Marceau",
       "Patrick McGoohan",
-      "Angus Macfadyen",
-      "Catherine McCormack"
+      "Catherine McCormack",
+      "Angus Macfadyen"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or1gBugydmjToAEq7OZY0owwFk.jpg",
-    "price": 85.00
+    "price": 75.0
   },
   {
     "id": 20,
     "title": "Schindler's List",
-    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "description": "Oskar Schindler saves his Jewish workers from Nazi persecution by turning his factory into a refuge during WWII.",
     "movie_year": 1993,
     "director": "Steven Spielberg",
     "actors": [
@@ -320,13 +790,13 @@
       "Caroline Goodall",
       "Jonathan Sagall"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c8Ass7acuOe4za6DhSattE359gr.jpg",
-    "price": 100.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yPisjyLweCl1tbgwgtzBCNCBle.jpg",
+    "price": 80.0
   },
   {
     "id": 21,
     "title": "The Silence of the Lambs",
-    "description": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
+    "description": "A young FBI cadet seeks the help of Hannibal Lecter to catch a serial killer in a chilling psychological battle.",
     "movie_year": 1991,
     "director": "Jonathan Demme",
     "actors": [
@@ -337,12 +807,12 @@
       "Anthony Heald"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
-    "price": 85.00
+    "price": 75.0
   },
   {
     "id": 22,
     "title": "Goodfellas",
-    "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+    "description": "Henry Hill narrates his life in the mob, detailing the rise and fall within the Italian-American crime syndicate.",
     "movie_year": 1990,
     "director": "Martin Scorsese",
     "actors": [
@@ -353,28 +823,29 @@
       "Paul Sorvino"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-    "price": 90.00
+    "price": 90.0
   },
   {
     "id": 23,
     "title": "The Lion King",
-    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "description": "Exiled lion cub Simba returns as an adult to reclaim his kingdom from his evil uncle Scar and fulfill his destiny.",
     "movie_year": 1994,
     "director": "Roger Allers, Rob Minkoff",
     "actors": [
       "Matthew Broderick",
-      "Jeremy Irons",
       "James Earl Jones",
-      "Whoopi Goldberg",
-      "Rowan Atkinson"
+      "Jeremy Irons",
+      "Moira Kelly",
+      "Ernie Sabella",
+      "Nathan Lane"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
-    "price": 80.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2KbW0w9ROb3gHZ9y5xkaA6UMCe9.jpg",
+    "price": 95.0
   },
   {
     "id": 24,
     "title": "Toy Story",
-    "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+    "description": "Woody, a cowboy doll, is threatened by new toy Buzz Lightyear, leading them on an adventure to find their place.",
     "movie_year": 1995,
     "director": "John Lasseter",
     "actors": [
@@ -385,14 +856,14 @@
       "Wallace Shawn"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
-    "price": 75.00
+    "price": 70.0
   },
   {
     "id": 25,
     "title": "Finding Nemo",
-    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "description": "Clownfish Marlin searches for his son, Nemo, across the ocean with the help of a forgetful fish named Dory.",
     "movie_year": 2003,
-    "director": "Andrew Stanton, Lee Unkrich",
+    "director": "Andrew Stanton",
     "actors": [
       "Albert Brooks",
       "Ellen DeGeneres",
@@ -400,13 +871,13 @@
       "Willem Dafoe",
       "Brad Garrett"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
-    "price": 75.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mO7E4SK40DaViE2rFdi06E6qIfR.jpg",
+    "price": 65.0
   },
   {
     "id": 26,
     "title": "Shrek",
-    "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+    "description": "Ogre Shrek sets out to rescue Princess Fiona, encountering unlikely friendships and romance on his journey.",
     "movie_year": 2001,
     "director": "Andrew Adamson, Vicky Jenson",
     "actors": [
@@ -417,54 +888,392 @@
       "Vincent Cassel"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
-    "price": 70.00
+    "price": 75.0
   },
   {
     "id": 27,
-    "title": "Up",
-    "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
-    "movie_year": 2009,
-    "director": "Pete Docter, Bob Peterson",
+    "title": "The Lion King (2019)",
+    "description": "A CGI-animated version of Simba's journey to reclaim his kingdom, with new songs and updated visuals.",
+    "movie_year": 2019,
+    "director": "Jon Favreau",
     "actors": [
-      "Ed Asner",
-      "Jordan Nagai",
-      "John Ratzenberger",
-      "Christopher Plummer",
-      "Bob Peterson"
+      "Donald Glover",
+      "Beyoncé",
+      "Seth Rogen",
+      "Chiwetel Ejiofor",
+      "Billy Eichner",
+      "James Earl Jones"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rIfKIYMbwVlnAXOOaQRsm34GW3S.jpg",
-    "price": 85.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+    "price": 85.0
   },
   {
     "id": 28,
+    "title": "Avengers: Endgame",
+    "description": "The Avengers assemble one last time to reverse Thanos' snap and restore the universe in an epic battle.",
+    "movie_year": 2019,
+    "director": "Anthony Russo, Joe Russo",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "price": 105.0
+  },
+  {
+    "id": 29,
+    "title": "Frozen",
+    "description": "Princess Elsa accidentally unleashes eternal winter on her kingdom. Her sister Anna embarks on a journey to save Elsa and bring back summer.",
+    "movie_year": 2013,
+    "director": "Chris Buck, Jennifer Lee",
+    "actors": [
+      "Kristen Bell",
+      "Idina Menzel",
+      "Jonathan Groff",
+      "Josh Gad",
+      "Santino Fontana"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jIjdFXKUNtdf1bwqMrhearpyjMj.jpg",
+    "price": 90.0
+  },
+  {
+    "id": 30,
+    "title": "Toy Story 3",
+    "description": "Woody and Buzz lead the toys in a daring adventure as they face an uncertain future when their owner Andy goes to college.",
+    "movie_year": 2010,
+    "director": "Lee Unkrich",
+    "actors": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack",
+      "Ned Beatty",
+      "Don Rickles"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg",
+    "price": 95.0
+  },
+  {
+    "id": 31,
     "title": "The Incredibles",
-    "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+    "description": "The Parr family, secretly superheroes, must fight to save the world while living a normal suburban life.",
     "movie_year": 2004,
     "director": "Brad Bird",
     "actors": [
       "Craig T. Nelson",
-      "Samuel L. Jackson",
       "Holly Hunter",
+      "Samuel L. Jackson",
       "Jason Lee",
-      "Dominique Louis"
+      "Spencer Fox"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
-    "price": 80.00
+    "price": 80.0
   },
   {
-    "id": 29,
-    "title": "WALL·E",
-    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
-    "movie_year": 2008,
-    "director": "Andrew Stanton",
+    "id": 32,
+    "title": "Up",
+    "description": "Elderly widower Carl and young boy scout Russell embark on an adventure to fulfill a lifelong dream and discover friendship.",
+    "movie_year": 2009,
+    "director": "Pete Docter",
     "actors": [
-      "Ben Burtt",
-      "Elissa Knight",
-      "Jeff Garlin",
-      "Fred Willard",
-      "John Ratzenberger"
+      "Ed Asner",
+      "Christopher Plummer",
+      "Jordan Nagai",
+      "Bob Peterson",
+      "Delroy Lindo"
     ],
-    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
-    "price": 80.00
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rIfKIYMbwVlnAXOOyG3vwnRuFO8.jpg",
+    "price": 85.0
+  },
+  {
+    "id": 33,
+    "title": "Inside Out",
+    "description": "Riley's emotions, Joy, Sadness, Anger, Fear, and Disgust, guide her through life's ups and downs as she navigates a move to a new city.",
+    "movie_year": 2015,
+    "director": "Pete Docter",
+    "actors": [
+      "Amy Poehler",
+      "Bill Hader",
+      "Lewis Black",
+      "Mindy Kaling",
+      "Phyllis Smith"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lRHE0vzf3oYJrhbsHXjIkF4Tl5A.jpg",
+    "price": 90.0
+  },
+  {
+    "id": 34,
+    "title": "Coco",
+    "description": "Aspiring musician Miguel enters the Land of the Dead to discover his family's history and fulfill his dream.",
+    "movie_year": 2017,
+    "director": "Lee Unkrich, Adrian Molina",
+    "actors": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt",
+      "Alanna Ubach",
+      "Renée Victor"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+    "price": 85.0
+  },
+  {
+    "id": 35,
+    "title": "Zootopia",
+    "description": "Rabbit cop Judy Hopps and fox Nick Wilde work together to solve a mystery that could threaten their city.",
+    "movie_year": 2016,
+    "director": "Byron Howard, Rich Moore",
+    "actors": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Idris Elba",
+      "Jenny Slate",
+      "Nate Torrence"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/y5Z0WesTjvn59jP6yo459eUsbli.jpg",
+    "price": 80.0
+  },
+  {
+    "id": 36,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "description": "Teenager Miles Morales becomes Spider-Man, teaming up with other spider heroes to stop a threat to the multiverse.",
+    "movie_year": 2018,
+    "director": "Peter Ramsey, Rodney Rothman",
+    "actors": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld",
+      "Mahershala Ali",
+      "Brian Tyree Henry"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "price": 95.0
+  },
+  {
+    "id": 37,
+    "title": "The Lion King II: Simba's Pride",
+    "description": "Simba's daughter Kiara falls in love with Kovu, a lion raised by Scar's followers, challenging her father's beliefs.",
+    "movie_year": 1998,
+    "director": "Darrell Rooney, Rob LaDuca",
+    "actors": [
+      "Matthew Broderick",
+      "Neve Campbell",
+      "Andy Dick",
+      "Robert Guillaume",
+      "James Earl Jones"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3Phb8OMJBfAEPldK2FBeMJuF5pQ.jpg",
+    "price": 70.0
+  },
+  {
+    "id": 38,
+    "title": "Monsters, Inc.",
+    "description": "Monsters Sulley and Mike Wazowski work at a scream-processing factory, where they discover a child's unexpected visit.",
+    "movie_year": 2001,
+    "director": "Pete Docter",
+    "actors": [
+      "John Goodman",
+      "Billy Crystal",
+      "Mary Gibbs",
+      "Steve Buscemi",
+      "James Coburn"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sgheSKxZkttIe8ONsf2sWXPgip3.jpg",
+    "price": 75.0
+  },
+  {
+    "id": 39,
+    "title": "The Emperor's New Groove",
+    "description": "Emperor Kuzco is turned into a llama by his advisor Yzma, and he must find his way back to the throne with the help of a peasant named Pacha.",
+    "movie_year": 2000,
+    "director": "Mark Dindal",
+    "actors": [
+      "David Spade",
+      "John Goodman",
+      "Eartha Kitt",
+      "Patrick Warburton",
+      "Wendie Malick"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xU635vn1lMD9DWDloeuKmuhxxnQ.jpg",
+    "price": 60.0
+  },
+  {
+    "id": 40,
+    "title": "The Matrix",
+    "description": "A hacker discovers the world is a simulation and joins rebels to fight against machines controlling humanity.",
+    "movie_year": 1999,
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving",
+      "Joe Pantoliano"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aOIuZAjPaRIE6CMzbazvcHuHXDc.jpg",
+    "price": 120.0
+  },
+  {
+    "id": 41,
+    "title": "The Dark Knight Rises",
+    "description": "Batman returns to Gotham City to face new threats from Bane and Catwoman, battling to save the city from destruction.",
+    "movie_year": 2012,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Tom Hardy",
+      "Anne Hathaway",
+      "Joseph Gordon-Levitt",
+      "Gary Oldman"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bgtUfKQKNi3nJsAB5URpP2wdRt.jpg",
+    "price": 115.0
+  },
+  {
+    "id": 42,
+    "title": "Avengers: Infinity War",
+    "description": "The Avengers and their allies attempt to stop Thanos from collecting the Infinity Stones and wiping out half of all life.",
+    "movie_year": 2018,
+    "director": "Anthony Russo, Joe Russo",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Scarlett Johansson"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    "price": 110.0
+  },
+  {
+    "id": 43,
+    "title": "Jurassic Park",
+    "description": "A thrilling adventure in a theme park of genetically-engineered dinosaurs that escape, leading to chaos and danger.",
+    "movie_year": 1993,
+    "director": "Steven Spielberg",
+    "actors": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum",
+      "Richard Attenborough",
+      "Bob Peck"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9i3plLl89DHMz7mahksDaAo7HIS.jpg",
+    "price": 100.0
+  },
+  {
+    "id": 44,
+    "title": "Terminator 2: Judgment Day",
+    "description": "A cyborg, the Terminator, protects a young John Connor from a more advanced robotic assassin in a fight for the future.",
+    "movie_year": 1991,
+    "director": "James Cameron",
+    "actors": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Edward Furlong",
+      "Robert Patrick",
+      "Earl Boen"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/weVXMD5QBGeQil4HEATZqAkXeEc.jpg",
+    "price": 105.0
+  },
+  {
+    "id": 45,
+    "title": "Inception",
+    "description": "A skilled thief enters dreams to steal secrets and must complete a complex heist in a mind-bending world.",
+    "movie_year": 2010,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy",
+      "Ken Watanabe"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8s4h9friP6Ci3adRGahHARVd76E.jpg",
+    "price": 125.0
+  },
+  {
+    "id": 46,
+    "title": "The Lion King (1994)",
+    "description": "Exiled lion cub Simba returns as an adult to reclaim his kingdom from his evil uncle Scar and fulfill his destiny.",
+    "movie_year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "actors": [
+      "Matthew Broderick",
+      "James Earl Jones",
+      "Jeremy Irons",
+      "Moira Kelly",
+      "Ernie Sabella",
+      "Nathan Lane"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2KbW0w9ROb3gHZ9y5xkaA6UMCe9.jpg",
+    "price": 95.0
+  },
+  {
+    "id": 47,
+    "title": "The Dark Knight",
+    "description": "Batman faces the Joker, a new criminal mastermind, who unleashes chaos on Gotham City.",
+    "movie_year": 2008,
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Maggie Gyllenhaal"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "price": 115.0
+  },
+  {
+    "id": 48,
+    "title": "The Avengers",
+    "description": "Earth's mightiest heroes, including Iron Man and Captain America, unite to stop Loki from enslaving humanity.",
+    "movie_year": 2012,
+    "director": "Joss Whedon",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "price": 110.0
+  },
+  {
+    "id": 49,
+    "title": "Iron Man",
+    "description": "Billionaire Tony Stark creates a powerful suit to fight evil and become the hero Iron Man.",
+    "movie_year": 2008,
+    "director": "Jon Favreau",
+    "actors": [
+      "Robert Downey Jr.",
+      "Terrence Howard",
+      "Jeff Bridges",
+      "Gwyneth Paltrow",
+      "Leslie Bibb"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "price": 100.0
+  },
+  {
+    "id": 50,
+    "title": "Thor: Ragnarok",
+    "description": "Thor faces his greatest challenge yet as he is pitted against his fellow Avenger, the Hulk, in a gladiatorial contest.",
+    "movie_year": 2017,
+    "director": "Taika Waititi",
+    "actors": [
+      "Chris Hemsworth",
+      "Tom Hiddleston",
+      "Cate Blanchett",
+      "Idris Elba",
+      "Jeff Goldblum"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+    "price": 105.0
   }
 ]
