@@ -35,7 +35,7 @@
   {
     "id": 3,
     "title": "Jurassic Park",
-    "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+    "description": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
     "movie_year": 1993,
     "director": "Steven Spielberg",
     "actors": [
@@ -118,7 +118,7 @@
   {
     "id": 8,
     "title": "Fight Club",
-    "description": "The film tells the story of an alienated office worker and a charismatic nihilist who start an underground club at which disaffected young men violently fight each other.",
+    "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
     "movie_year": 1999,
     "director": "David Fincher",
     "actors": [
@@ -166,7 +166,7 @@
   {
     "id": 11,
     "title": "The Godfather",
-    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
     "movie_year": 1972,
     "director": "Francis Ford Coppola",
     "actors": [
@@ -197,7 +197,7 @@
   },
   {
     "id": 13,
-    "title": "The Lord of the Rings",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
     "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
     "movie_year": 2001,
     "director": "Peter Jackson",
@@ -229,7 +229,7 @@
   },
   {
     "id": 15,
-    "title": "The Lord of the Rings: The Return of the King",
+    "title": "The Lord of the Rings",
     "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
     "movie_year": 2003,
     "director": "Peter Jackson",
@@ -262,7 +262,7 @@
   {
     "id": 17,
     "title": "Gladiator",
-    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "description": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders.",
     "movie_year": 2000,
     "director": "Ridley Scott",
     "actors": [
