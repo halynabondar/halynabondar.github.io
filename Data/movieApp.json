@@ -133,8 +133,8 @@
   },
   {
     "id": 9,
-    "title": "Shawshank Redemption",
-    "description": "In prison, two inmates bond over years, finding solace in friendship and hope, leading to redemption and an eventual escape that transcends the brutality of their environment.",
+    "title": "The Shawshank Redemption",
+    "description": "In prison, two inmates bond over years, finding solace in friendship and hope...",
     "movie_year": 1994,
     "director": "Frank Darabont",
     "actors": [
@@ -230,7 +230,7 @@
   {
     "id": 15,
     "title": "The Lord of the Rings: The Return of the King",
-    "description": " As Frodo and Sam near Mordor, Gandalf and Aragorn rally men to distract Sauron, aiming to protect Middle-earth and destroy the One Ring in the heart of Mount Doom.",
+    "description": " As Frodo and Sam near Mordor, Gandalf and Aragorn rally men to distract Sauron, aiming to protect Middle-earth and destroy the One Ring.",
     "movie_year": 2003,
     "director": "Peter Jackson",
     "actors": [
@@ -454,7 +454,7 @@
   {
     "id": 29,
     "title": "WALL·E",
-    "description": "In the distant future, Earth has become a desolate wasteland, abandoned by humanity and overrun by mountains of trash. Amidst the rubble, a small, lovable robot named WALL-E spends his days tirelessly cleaning up the mess.",
+    "description": "In the distant future, Earth has become a desolate wasteland, abandoned by humanity and overrun by mountains of trash. Amidst the rubble WALL-E spends his days tirelessly cleaning up the mess.",
     "movie_year": 2008,
     "director": "Andrew Stanton",
     "actors": [
