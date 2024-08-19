@@ -14,7 +14,8 @@
       "Rick Rossovich"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/hcItc8IMO0WKyRWPGkI6xtKVu6X.jpg",
-    "price": 80.00
+    "price": 80.00,
+    "comments": []
   },
   {
     "id": 2,
@@ -30,7 +31,13 @@
       "Thomas F. Wilson"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
-    "price": 75.00
+    "price": 75.00,
+    "comments": [
+      {
+        "username": "John Doe",
+        "message": "An absolute classic! The best time travel movie ever."
+      }
+    ]
   },
   {
     "id": 3,
@@ -46,7 +53,17 @@
       "Bob Peck"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/kYVJCtAOhkIbz4MWulx0N17ZNTQ.jpg",
-    "price": 90.00
+    "price": 90.00,
+    "comments": [
+      {
+        "username": "Jane Smith",
+        "message": "This movie made me believe dinosaurs could really exist."
+      },
+      {
+        "username": "Michael Brown",
+        "message": "The special effects were groundbreaking for the time."
+      }
+    ]
   },
   {
     "id": 4,
@@ -61,7 +78,21 @@
       "Hugo Weaving"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
-    "price": 85.00
+    "price": 85.00,
+    "comments": [
+      {
+        "username": "Alice Johnson",
+        "message": "Mind-bending and revolutionary! The Matrix changed sci-fi cinema forever."
+      },
+      {
+        "username": "Robert Green",
+        "message": "The action scenes are some of the best ever filmed."
+      },
+      {
+        "username": "Emily Davis",
+        "message": "This movie makes you question reality in the best way possible."
+      }
+    ]
   },
   {
     "id": 5,
@@ -79,7 +110,8 @@
       "Cillian Murphy"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
-    "price": 95.00
+    "price": 95.00,
+    "comments": []
   },
   {
     "id": 6,
@@ -95,7 +127,13 @@
       "Ving Rhames"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
-    "price": 80.00
+    "price": 80.00,
+    "comments": [
+      {
+        "username": "George Martinez",
+        "message": "Tarantino at his finest. The dialogue is pure gold."
+      }
+    ]
   },
   {
     "id": 7,
@@ -113,7 +151,13 @@
       "Morgan Freeman"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "price": 100.00
+    "price": 100.00,
+    "comments": [
+      {
+        "username": "Sarah Lee",
+        "message": "Heath Ledger's Joker is an unforgettable performance."
+      }
+    ]
   },
   {
     "id": 8,
@@ -129,7 +173,8 @@
       "Helena Bonham Carter"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
-    "price": 70.00
+    "price": 70.00,
+    "comments": []
   },
   {
     "id": 9,
@@ -145,7 +190,13 @@
       "Clancy Brown"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-    "price": 85.00
+    "price": 85.00,
+    "comments": [
+      {
+        "username": "Karen Wilson",
+        "message": "A powerful story of hope and friendship. One of the best movies ever made."
+      }
+    ]
   },
   {
     "id": 10,
@@ -161,7 +212,8 @@
       "Mykelti Williamson"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
-    "price": 80.00
+    "price": 80.00,
+    "comments": []
   },
   {
     "id": 11,
@@ -177,7 +229,13 @@
       "Robert Duvall"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-    "price": 120.00
+    "price": 120.00,
+    "comments": [
+      {
+        "username": "David Johnson",
+        "message": "The ultimate gangster movie. A masterpiece in every way."
+      }
+    ]
   },
   {
     "id": 12,
@@ -193,7 +251,8 @@
       "Alec Guinness"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-    "price": 110.00
+    "price": 110.00,
+    "comments": []
   },
   {
     "id": 13,
@@ -209,7 +268,8 @@
       "Sean Astin"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-    "price": 105.00
+    "price": 105.00,
+    "comments": []
   },
   {
     "id": 14,
@@ -225,7 +285,8 @@
       "Orlando Bloom"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/zrcL156wXTcfS3wzziCmr8uessx.jpg",
-    "price": 105.00
+    "price": 105.00,
+    "comments": []
   },
   {
     "id": 15,
@@ -241,7 +302,8 @@
       "Sean Astin"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "price": 105.00
+    "price": 105.00,
+    "comments": []
   },
   {
     "id": 16,
@@ -257,7 +319,17 @@
       "Anthony Daniels"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
-    "price": 110.00
+    "price": 110.00,
+    "comments": [
+      {
+        "username": "Lisa White",
+        "message": "The best Star Wars movie in my opinion. A true classic."
+      },
+      {
+        "username": "James Harris",
+        "message": "The twists and turns in this movie are legendary."
+      }
+    ]
   },
   {
     "id": 17,
@@ -273,7 +345,13 @@
       "Derek Jacobi"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
-    "price": 95.00
+    "price": 95.00,
+    "comments": [
+      {
+        "username": "Susan Clark",
+        "message": "Epic in every sense. The performances are powerful."
+      }
+    ]
   },
   {
     "id": 18,
@@ -289,7 +367,8 @@
       "Barry Pepper"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w1280/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
-    "price": 90.00
+    "price": 90.00,
+    "comments": []
   },
   {
     "id": 19,
@@ -305,7 +384,8 @@
       "Catherine McCormack"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or1gBugydmjToAEq7OZY0owwFk.jpg",
-    "price": 85.00
+    "price": 85.00,
+    "comments": []
   },
   {
     "id": 20,
@@ -321,7 +401,8 @@
       "Jonathan Sagall"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c8Ass7acuOe4za6DhSattE359gr.jpg",
-    "price": 100.00
+    "price": 100.00,
+    "comments": []
   },
   {
     "id": 21,
@@ -337,7 +418,13 @@
       "Anthony Heald"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
-    "price": 85.00
+    "price": 85.00,
+    "comments": [
+      {
+        "username": "Tom Young",
+        "message": "Chilling and unforgettable. Hopkins is terrifyingly brilliant."
+      }
+    ]
   },
   {
     "id": 22,
@@ -353,7 +440,8 @@
       "Paul Sorvino"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-    "price": 90.00
+    "price": 90.00,
+    "comments": []
   },
   {
     "id": 23,
@@ -369,7 +457,13 @@
       "Rowan Atkinson"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
-    "price": 80.00
+    "price": 80.00,
+    "comments": [
+      {
+        "username": "Rachel King",
+        "message": "A timeless animated masterpiece. The music still gives me chills."
+      }
+    ]
   },
   {
     "id": 24,
@@ -385,7 +479,8 @@
       "Wallace Shawn"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
-    "price": 75.00
+    "price": 75.00,
+    "comments": []
   },
   {
     "id": 25,
@@ -401,7 +496,13 @@
       "Brad Garrett"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
-    "price": 75.00
+    "price": 75.00,
+    "comments": [
+      {
+        "username": "Henry Moore",
+        "message": "An animated adventure that is both heartwarming and visually stunning."
+      }
+    ]
   },
   {
     "id": 26,
@@ -417,7 +518,8 @@
       "Vincent Cassel"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
-    "price": 70.00
+    "price": 70.00,
+    "comments": []
   },
   {
     "id": 27,
@@ -433,7 +535,8 @@
       "Bob Peterson"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rIfKIYMbwVlnAXOOaQRsm34GW3S.jpg",
-    "price": 85.00
+    "price": 85.00,
+    "comments": []
   },
   {
     "id": 28,
@@ -449,7 +552,8 @@
       "Dominique Louis"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
-    "price": 80.00
+    "price": 80.00,
+    "comments": []
   },
   {
     "id": 29,
@@ -465,6 +569,141 @@
       "John Ratzenberger"
     ],
     "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
-    "price": 80.00
+    "price": 80.00,
+    "comments": []
+  },
+  {
+    "id": 30,
+    "title": "Mad Max: Fury Road",
+    "description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to flee from a tyrant and his army in a high-octane chase across the desert.",
+    "movie_year": 2015,
+    "director": "George Miller",
+    "actors": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult",
+      "Hugh Keays-Byrne",
+      "Zoë Kravitz"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kqjL17yufvn9OVLyXYpvtyrFfak.jpg",
+    "price": 90.00,
+    "comments": [
+      {
+        "username": "Max Rockatansky",
+        "message": "One of the best action movies ever made! The visuals and stunts are incredible."
+      },
+      {
+        "username": "Furiosa Road",
+        "message": "Furiosa is such a powerful character. Loved every minute of this movie!"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "The Grand Budapest Hotel",
+    "description": "A concierge at a famous European hotel and his protégé become embroiled in the theft and recovery of a priceless painting amid the rise of fascism.",
+    "movie_year": 2014,
+    "director": "Wes Anderson",
+    "actors": [
+      "Ralph Fiennes",
+      "F. Murray Abraham",
+      "Mathieu Amalric",
+      "Adrien Brody",
+      "Willem Dafoe"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5XH2XxWBnV9bnubIUXO4yJd9WfG.jpg",
+    "price": 85.00,
+    "comments": [
+      {
+        "username": "Gustave H.",
+        "message": "Wes Anderson’s most charming film. The visuals are stunning."
+      },
+      {
+        "username": "Zero Moustafa",
+        "message": "A perfect blend of humor and heart. Anderson's best work."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Parasite",
+    "description": "A poor family schemes to become employed by a wealthy household, only to uncover dark secrets and unexpected complications.",
+    "movie_year": 2019,
+    "director": "Bong Joon-ho",
+    "actors": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik",
+      "Park So-dam"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "price": 95.00,
+    "comments": [
+      {
+        "username": "Kim Ki-taek",
+        "message": "A masterpiece that explores social inequality in a gripping way."
+      },
+      {
+        "username": "Jessica",
+        "message": "Parasite deserved all the awards. Brilliant storytelling."
+      },
+      {
+        "username": "Chung-sook",
+        "message": "The twists in this movie are absolutely mind-blowing."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Dune",
+    "description": "Paul Atreides, a brilliant and gifted young man, must travel to the most dangerous planet in the universe to ensure the future of his family and his people.",
+    "movie_year": 2021,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "Timothée Chalamet",
+      "Rebecca Ferguson",
+      "Oscar Isaac",
+      "Jason Momoa",
+      "Stellan Skarsgård"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "price": 100.00,
+    "comments": [
+      {
+        "username": "Paul Atreides",
+        "message": "An epic adaptation of the classic novel. The visuals are breathtaking."
+      },
+      {
+        "username": "Chani",
+        "message": "Denis Villeneuve has done it again. A masterpiece of modern sci-fi."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Spider-Man: No Way Home",
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+    "movie_year": 2021,
+    "director": "Jon Watts",
+    "actors": [
+      "Tom Holland",
+      "Zendaya",
+      "Benedict Cumberbatch",
+      "Jacob Batalon",
+      "Marisa Tomei"
+    ],
+    "poster_url": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "price": 110.00,
+    "comments": [
+      {
+        "username": "Peter Parker",
+        "message": "A must-watch for any Spider-Man fan! The multiverse concept is amazing."
+      },
+      {
+        "username": "MJ",
+        "message": "The best Spider-Man movie to date. A perfect blend of action and emotion."
+      }
+    ]
   }
 ]
